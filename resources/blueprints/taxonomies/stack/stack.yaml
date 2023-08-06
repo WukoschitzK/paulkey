@@ -1,0 +1,11 @@
+title: Stack
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          localizable: false
+          display: Title

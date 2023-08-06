@@ -1,0 +1,18 @@
+title: Projects
+template: projects/show
+layout: layout
+mount: a0aad0f5-9c5d-469a-8904-32ff14da9185
+taxonomies:
+  - stack
+revisions: false
+route: '{slug}'
+date: true
+sort_dir: desc
+date_behavior:
+  past: public
+  future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true

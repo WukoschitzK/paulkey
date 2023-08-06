@@ -1,0 +1,115 @@
+title: 'Global Settings'
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: site_name
+            field:
+              character_limit: 0
+              type: text
+              display: 'Site Name'
+          -
+            handle: social
+            field:
+              fields:
+                -
+                  handle: name
+                  field:
+                    type: text
+                    localizable: false
+                    display: Name
+                -
+                  handle: url
+                  field:
+                    character_limit: 0
+                    type: text
+                    localizable: false
+                    display: URL
+                -
+                  handle: icon
+                  field:
+                    container: assets
+                    mode: list
+                    restrict: true
+                    folder: site/social-icons
+                    allow_uploads: true
+                    max_files: 1
+                    type: assets
+                    localizable: false
+                    display: Icon
+              mode: table
+              add_row: 'Add Link'
+              reorderable: true
+              type: grid
+              instructions: 'Set any social media links'
+              display: Social
+      -
+        display: SEO
+        instructions: 'Add some SEO relevant data'
+        fields:
+          -
+            handle: description
+            field:
+              antlers: false
+              type: textarea
+              display: Description
+              icon: textarea
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: canonical_url
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Canonical Url'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: og_title
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'OG Title'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: og_description
+            field:
+              antlers: false
+              type: textarea
+              display: 'OG Description'
+              icon: textarea
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: og_image
+            field:
+              max_files: 1
+              mode: list
+              container: assets
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'OG Image'
+              icon: assets
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
