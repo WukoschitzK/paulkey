@@ -1,14 +1,7 @@
-<!-- statamic:hide --><p align="center"><img src="https://statamic.com/assets/branding/Statamic-Logo-Rad.png" width="100" alt="Statamic Logo" /></p>
-<h1 align="center">
-  Statamic Starter Kit: Cool Writings
-</h1>
-
-![Statamic 4+](https://img.shields.io/badge/Statamic-4+-FF269E?style=for-the-badge&link=https://statamic.com)
-<!-- /statamic:hide -->
+# Portfolio Website using Statamic CMS
 
 ## Features
 - Articles blogging collection with most recent articles on the home page
-- Markdown focused writing experience
 - Topics taxonomy for Articles
 - Pages structure for dynamic navigation
 - Customizable social links and icons
@@ -18,15 +11,6 @@
 - Itty bitty [Alpine.js](https://github.com/alpinejs/alpine) for interactions
 - 💯/💯/💯/💯 Lighthouse score
 
-<!-- statamic:hide -->
-## Screenshot
-
-![Screenshot](https://github.com/statamic/statamic-starter-cool-writings/raw/master/screenshot.png)
-<!-- /statamic:hide -->
-
-## Video Tour
-
-Watch the [Cool Writings video tour](https://www.youtube.com/watch?v=IgjJYfVF26Q) to see what's going on under the hood.
 
 ## Quick Start
 
@@ -50,8 +34,6 @@ The above installers should prompt you to make a user, but you can also run `php
 
 ### 3. Recompile the CSS (optional)
 
-The [TailwindCSS](https://tailwindcss.com/) included in this kit is compiled and purged to reduce filesize on any unused classes and selectors. If you want to modify anything, just recompile it.
-
 ```
 npm i && npm run dev
 ```
@@ -61,11 +43,3 @@ To compile for production again:
 ```
 npm run build
 ```
-
-### 4. Do your thing!
-
-If you're using [Laravel Valet](https://laravel.com/docs/valet) (or similar), your site should be available at `http://cool-site.test`. You can access the control panel at `http://cool-site.test/cp` and login with your new user. Open up the source code, follow along with the [Statamic docs](https://statamic.dev), and enjoy!
-
-## Contributing
-
-Contributions are always welcome, no matter how large or small. Before contributing, please read the [code of conduct](https://github.com/statamic/cms/wiki/Code-of-Conduct).
